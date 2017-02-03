@@ -33,7 +33,6 @@ class PoemWriter extends React.Component {
     })
 
     if (words[0].length === 5 && words[1].length === 3 && words[2].length === 5 && lines.length === 3 ) {
-      debugger
       return true
     } else {
       return false
